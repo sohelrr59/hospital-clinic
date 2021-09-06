@@ -1,0 +1,557 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style-type: none;
+}
+img{
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+}
+p{
+	font-family: OpenSans;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Montserrat Bold;
+}
+
+
+/*=================main top=================*/
+
+#header-top{
+
+}
+
+.header-content{
+	
+}
+.logo{
+	padding-top: 20px;
+}
+.contact{
+	float: left;
+	margin-right: 5%;
+	padding-top: 20px;
+}
+
+.contact-text{
+	float: right;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+.icone{
+	float: left;
+    background: #1A9BDC;
+    padding: 5px 11px;
+    border-radius: 30px;
+    font-size: 25px;
+    color: #fff;
+
+}
+
+.icone-phone{
+	float: left;
+    background: #1A9BDC;
+    padding: 5px 16px;
+    border-radius: 26px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.header-separator{
+	width: 1045px;
+    margin: 0 auto;
+    margin-right: 59px;
+    color: #bbb;
+}
+
+@font-face{
+	font-family: 'nexabold';
+	src: url(font/Nexa Bold.otf);
+	
+}
+@font-face{
+	font-family: 'Montserrat';
+	src: url(font/Montserrat-Medium.ttf);
+	
+}
+
+
+@font-face{
+	font-family: 'Open Sans';
+	src: url(font/OpenSans-Regular.ttf);
+	
+}
+
+
+
+
+/*==================Main Menu/nav=====================*/
+
+.main-menu ul li{
+	padding: 10px;
+}
+.main-menu ul li a{
+	font-family: Nexa Bold;
+    color: #6c6c6c;
+    font-size: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000;
+    background: #fff;
+}
+
+.main-menu ul li a:hover{
+	color: #000;
+
+}
+
+.social-icons {
+   	font-size: 17px;
+	margin-top: 30px;
+	float: right;
+	margin-right: 60px;
+	cursor: pointer;
+}
+
+.icon-s{
+    margin-right: 15px;
+}
+
+
+/*======================Banner================*/
+
+#banner{
+	background: url('../images/banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 166px 0;
+	position: relative;
+	
+	}
+.banner-text{
+	width: 50%;
+    text-align: center;
+}
+.banner-text h1{
+	
+	font-family: 'Montserrat';
+  	font-weight: 700;
+}
+.banner-text p{
+	padding: 0px 63px;
+	font-family: 'Open Sans';
+	
+}
+.banner-text a{
+	background: #1a9bdc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 8px 31px -11px #000;
+}
+#banner img{
+	position: absolute;
+	margin-left: 567px;
+    margin-top: 85px;
+}
+
+/*================Our Service=======================*/
+
+#our-service{
+	background: #46B1D2;
+}
+
+.our-service{
+	padding-top: 50px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    transition: all linear.4s;
+}
+.our-service:hover{
+	background: #3AC3A8;
+}
+.our-service-icon{
+	background: #fff;
+    width: 18%;
+    border-radius: 45px;
+    font-size: 22px;
+    padding: 6px;
+    text-align: center;
+    margin-left: 42%;
+}
+.our-service h4{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+.our-service p{
+	font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/*==================Why Choose Us=================*/
+
+#why-choose-us{
+	padding-top: 80px;
+}
+.choose-us-title{
+    width: 856px;
+    margin: auto;
+}
+.choose-us-title h2{
+	font-size: 45px;
+	text-align: center;
+	color: #4B4B4B;
+}
+.choose-us-title p{
+	font-size: 16px;
+	text-align: center;
+}
+.why-choose-us{
+	padding-top: 30%;
+}
+.why-choose-us-icon{
+	background: #1A9BDC;
+    color: #fff;
+    width: 15%;
+    text-align: center;
+    padding: 8px;
+    border-radius: 28px;
+    font-size: 25px;
+    float: left;
+}
+
+.why-choose-us h4{
+	overflow: hidden;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: #4B4B4B;
+}
+
+.why-choose-us p{
+	padding: 15px 0px;
+	font-size: 16px;
+	color: #4B4B4B;
+}
+
+/*=================Our Success=====================*/
+
+#our-success{
+	background: url(../images/our-success-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding: 50px 0;
+
+}
+
+.our-success{
+	position: relative;
+	padding-top: 50px;
+}
+.our-success img{
+	padding-bottom: 20px;
+}
+.our-success h6{
+	font-size: 60px;
+	color: #fff;
+}
+
+.our-success h6:after{
+	position: absolute;
+    content: '';
+    background: #fff;
+    width: 75px;
+    height: 5px;
+    bottom: 81px;
+    left: 85px;
+}
+.our-success p{
+	color: #fff;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+/*=================How we works====================*/
+
+
+#how-works{
+
+}
+.how-works{
+	padding: 100px 0;
+
+}
+.how-works h5{
+	font-size: 45px;
+	color: #868484;
+	font-weight: normal;
+}
+.how-works p{
+	font-size: 16px;
+	color: #a09d9d;
+	padding-top: 10px;
+}
+.doctor-care{
+	padding-top: 50px;
+}
+.doctor-care img{
+	padding-bottom: 20px;
+}
+.doctor-care h6{
+	color: #9a9a97;
+	font-size: 20px;
+}
+
+.doctor-care span{
+	color: #1D95C5;
+	cursor: pointer;
+	font-weight: 500;
+}
+
+.how-works a{
+	background: #0087BE;
+    color: #fff;
+    padding: 6px 20px;
+    box-shadow: 1px 2px 22px 0px #bfbdbd;
+    border-radius: 15px;
+    position: relative;
+    left: 42%;
+    top: 22px;
+}
+
+.our-creative{
+	padding: 100px 0;
+}
+
+.our-creative h5{
+	font-size: 45px;
+	color: #4B4B4B;
+	font-weight: 700;
+}
+
+.our-creative p{
+	font-size: 16px;
+	color: #a09d9d;
+	padding-top: 10px;
+}
+
+
+/*=============Our Creative==========*/
+
+.panel-default > .panel-heading {
+    border-radius: 30px;
+}
+.panel-default > .panel-heading a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.panel-default > .panel-heading:hover {
+   background-color: #0087BE;
+   color: #fff;
+}
+.panel-group .panel {
+    border-radius: 30px;
+}
+
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: 0px solid #ddd;
+}
+.panel{
+
+    border: 0px solid transparent;
+}
+
+/*=========================Gallery======================*/
+
+#gallery{
+	background: url(../images/gallerybg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+
+}
+
+.gallery-heading h2{
+
+	color: #fff;
+	font-weight: normal;
+	font-size: 45px;
+}
+
+.gallery-heading p{
+	color: #fff;
+	font-size: 16px;
+	font-family: OpenSans;
+}
+
+
+
+/*=====================Our Team==================*/
+
+#our-team{
+	padding-top: 50px;
+    padding-bottom: 80px;
+}
+.our-team{
+
+}
+.our-team-heading h2{
+
+	color: #000;
+	font-weight: normal;
+	font-size: 45px;
+	color: #868484;
+}
+
+.our-team-heading p{
+	color: #000;
+	font-size: 16px;
+	font-family: OpenSans;
+	padding: 15px;
+	color: #a09d9d;
+}
+.our-team h4{
+	text-align:center;
+	color: #868484;
+}
+.our-team h5{
+	text-align:center;
+	color: #868484;
+}
+
+.our-team-social-icons{
+   	font-size: 17px;
+    margin-top: 8px;
+    float: right;
+    margin-right: 75px;
+    color: #0087BE;
+    cursor: pointer;
+}
+
+/*================special-offer================*/
+
+#special-offer{
+	background-color: #E2E2E2;
+}
+.spcial-offer{
+	padding: 20px 0px;
+}
+.special-offer-text h4{
+	ppadding-top: 10px;
+    padding-left: 80px;
+    color: #4B4B4B;
+    font-size: 25px;
+    font-weight: 700;
+}
+.special-offer-link{
+	position: relative;
+    top: 40%;
+    left: 90px;
+}
+.special-offer-link a{
+	background: #0087BE;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 22px 0px #bfbdbd;
+}
+
+/*==================== Footer CSS ================ */
+
+
+#get-in-touch{
+	background: #161616;
+	padding: 50px 0;
+}
+.get-in-touch-heading{
+	padding-bottom: 15px;
+}
+.get-in-touch-heading h4{
+	color: #fff;
+	font-size: 22px;
+}
+.get-in-touch-content{
+	    padding-top: 30px;
+}
+.get-in-touch-content-link{
+	    padding-top: 15px;
+}
+.footer-icon{
+	font-size: 30px;
+	color: #777777;
+	float: left;
+	padding: 0 20px 0px 0px;
+	clear: both;
+	width: 20%;
+}
+.footer-content p{
+	margin-bottom: 0;
+	color: #777777;
+}
+.footer-content a{
+	margin-bottom: 0;
+	color: #777777;
+	text-decoration: none;
+}
+.get-in-touch-socials{
+	color: #fff;
+}
+
+.icon-arrow{
+	font-size:10px;
+	color: #0087BE;
+	width: 5%;
+	position: relative;
+	top: 4px;
+}
+
+.footer-form{
+	background: #161616;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    padding-left: 0px;
+    overflow-y: hidden;
+    resize: none;
+}
+.footer-button{
+	border-radius: 20px;
+    padding: 5px 30px;
+    background: #0087BE;
+}
+
+.copyright{
+	background: #1A1A1A;
+}
+
+.copyright-text{
+	text-align: center;
+    padding: 30px;
+    font-size: 16px;
+    color: #777777;
+}
+.copyright-text p{
+	margin-bottom: 0;
+}
+.copyright-text a{
+	text-decoration: none;
+	
+}
